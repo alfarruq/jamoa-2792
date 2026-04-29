@@ -36,9 +36,6 @@ const wholesaleData = [
 
 function SectionFour() {
     return (
-<<<<<<< HEAD
-        <div>
-=======
         <div className="max-w-7xl mx-auto px-4 py-16 font-sans bg-[#F8FAFC]">
 
             {/* 1-Bo'lim: Retail */}
@@ -53,7 +50,7 @@ function SectionFour() {
 
                 <div className="space-y-6">
                     {retailData.map((item, index) => (
-                        <div key={index} className="bg-white p-8 rounded-[2rem] shadow-sm hover:shadow-md transition-shadow border border-gray-50">
+                        <div key={index} className="bg-white p-8 rounded-4xl shadow-sm hover:shadow-md transition-shadow border border-gray-50">
                             <h3 className="text-xl font-bold text-gray-900 mb-4 leading-tight">{item.title}</h3>
                             <p className="text-gray-600 text-sm leading-relaxed mb-4">{item.text}</p>
                             <a href="#" className="text-green-500 font-medium flex items-center hover:underline">
@@ -75,7 +72,7 @@ function SectionFour() {
 
                 <div className="space-y-6">
                     {wholesaleData.map((item, index) => (
-                        <div key={index} className="bg-white p-8 rounded-[2rem] shadow-sm hover:shadow-md transition-shadow border border-gray-50">
+                        <div key={index} className="bg-white p-8 rounded-4xl shadow-sm hover:shadow-md transition-shadow border border-gray-50">
                             <h3 className="text-xl font-bold text-gray-900 mb-4 leading-tight">{item.title}</h3>
                             <p className="text-gray-600 text-sm leading-relaxed mb-4">{item.text}</p>
                             <a href="#" className="text-green-500 font-medium flex items-center hover:underline">
@@ -86,7 +83,6 @@ function SectionFour() {
                 </div>
             </div>
 
->>>>>>> 234ff5dc52e230755442157001f2c55177e57382
         </div>
     );
 }
