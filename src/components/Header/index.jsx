@@ -4,9 +4,6 @@ import headersectionimg from '../../assets/headersectionimg.svg'
 
 function Header() {
     return (
-<<<<<<< HEAD
-        <div>
-=======
         <div className='container'>
             <div className='header_Container'>
                 <div className='header_Logo'>
@@ -36,7 +33,6 @@ function Header() {
                     <img src={headersectionimg} alt="header section image" />
                 </div>
             </div>
->>>>>>> 234ff5dc52e230755442157001f2c55177e57382
         </div>
     );
 }
