@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    height: 100px;
+    padding: 20px 0;
+}
+
+.header_Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_Logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header_Logo p {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: Semibold;
+    font-size: 24px;
+    line-height: 139%;
+    letter-spacing: 0px;
+    text-align: justify;
+}
+
+.nav_a {
+    font-family: Gilroy;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 139%;
+    letter-spacing: 0px;
+    text-align: justify;
+    color: #2C2B35;
+}
+
+.nav_a:hover {
+    color: #43A548;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.headernavbtn {
+    background: linear-gradient(100.98deg, #43A548 -4.14%, #52E259 108.69%);
+    cursor: pointer;
+    color: #fff;
+    width: 72px;
+    height: 40px;
+    gap: 10px;
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: Semibold;
+    font-size: 14px;
+    line-height: 139%;
+    letter-spacing: 0px;
+    border-radius: 1000px;
+}
+
+.header_nav_container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0 0 0;
+}
+
+.header_section_button {
+    width: 249px;
+    height: 50px;
+    gap: 10px;
+    cursor: pointer;
+    opacity: 1;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border-radius: 1000px;
+    background: linear-gradient(100.98deg, #43A548 -4.14%, #52E259 108.69%);
+    color: #fff;
+}
+.header_section_content {
+    display: flex;
+    flex-direction: column;
+}
+.header_section_content_title{
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: Semibold;
+    font-size: 60px;
+    line-height: 110%;
+    letter-spacing: 0px;
+    width: 646px;
+    color: #2C2B35;
+    padding: 0 0 20px 0;
+}
+.header_section_content_text{
+    font-family: Gilroy;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 139%;
+    letter-spacing: 0px;
+    width: 648px;
+    color: #2C2B35;
+    padding: 0 0 30px 0;
+}
